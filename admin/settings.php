@@ -84,7 +84,11 @@
 
             let xhr = new XLHttpRquest();
             xhr.open("POST","ajax/settings_crud.php", true);
-            
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+
+
+            xhr.send('get_general');
         }
     </script>
 </body>
