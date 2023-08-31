@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hotel Booking Website - Acerca De</title>
+	<title>Expediciones Santiago Jukil</title>
   <?php require('inc/links.php'); ?>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
   <link rel="stylesheet" type="text/css" href="css/common.css">

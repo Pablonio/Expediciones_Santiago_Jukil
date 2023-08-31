@@ -1,9 +1,5 @@
 <style>
-   /* Estilos CSS personalizados */
-   /* Define el color de fondo para el cuerpo de la página */
-   body {
-      background-color: #ffffff;
-   }
+ 
 
    /* Personaliza los colores del navbar (barra de navegación) */
    .navbar {

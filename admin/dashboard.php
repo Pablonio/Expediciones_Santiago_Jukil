@@ -17,12 +17,16 @@
     <?php require('inc/links.php')?>
 </head>
 <body class="bg-light">
-    <!-- Encabezado del panel de administrador -->
-    <div class="container-fluid bg-dark text-light p-3 d-flex align-items-center justify-content-between">
-        <h3 class="mb-0"> ADMINISTRADOR DE PANEL</h3>
-        <a href="logout.php" class="btn btn-light btn-sm">Cerrar Sesión</a>
+    <?php require('inc/header.php') ?>
+
+    <div class="container-fluid" id="main-content">
+        <div class="row">   
+            <div class="col-lg-10 ms-auto p-4 overflow-hidden">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde eius dolorum voluptas consequuntur magnam dolore quas tenetur nobis culpa fuga praesentium facilis totam, ullam aperiam rerum eaque porro ipsa necessitatibus.e
+            </div>
+        </div >
     </div>
-    
+
     <!-- Incluir scripts utilizando PHP -->
     <?php require('inc/scripts.php')?>
 </body>
