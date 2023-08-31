@@ -1,31 +1,44 @@
 <div class="container-fluid bg-white mt-5">
- 	<div class="row">
- 		<div class="col-lg-4 p-4">
- 			<h3 class="h-font fw-bold fs-3 mb-2">Expediciones Santiago Jukil</h3>
- 			<p>En Santiago Jukil, somos la llave que desbloquea la maravilla del Salar de Uyuni. Como una empresa apasionada de turismo, llevamos a personas de todas partes a una aventura inolvidable. Nuestros guías expertos te acompañan a través de la vastedad del salar, donde la sal blanca se extiende como un lienzo infinito. Captura la belleza con tus ojos y cámara, y siéntete conectado con la naturaleza en su forma más grandiosa.</p>
- 		</div>
- 		<div class="col-lg-4 p-4">
- 			<h5 class="mb-3">Link</h5>
- 			<a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Inicio</a><br>
- 			<a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Sitios</a><br>
- 			<a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Que Ofrecemos</a><br>
- 			<a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Contactanos</a><br>
- 			<a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Acerca De</a>
- 		</div>
- 		<div class="col-lg-4 p-4">
- 			<h5 class="mb-3">Follow us</h5>
- 			<a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
- 				<i class="bi bi-twitter me-1"></i>Twitter
- 			</a><br>
- 			<a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
- 				<i class="bi bi-facebook me-1"></i>Facebook
- 			</a><br> 
- 			<a href="#" class="d-inline-block text-dark text-decoration-none">
- 				<i class="bi bi-instagram me-1"></i>Instagram
- 			</a><br>  
- 		</div>
- 	</div>
- </div>
+  <!-- Este div establece un contenedor fluido con fondo blanco y margen superior. -->
+  <div class="row">
+    <!-- Este div representa una fila dentro del contenedor. -->
+    <div class="col-lg-4 p-4">
+      <!-- Este div representa una columna dentro de la fila con tamaño grande en pantallas grandes, con relleno. -->
+      <h3 class="h-font fw-bold fs-3 mb-2">Expediciones Santiago Jukil</h3>
+      <!-- Este es un encabezado con una fuente personalizada, estilo en negrita y margen. -->
+      <p>En Santiago Jukil, somos la llave que desbloquea la maravilla del Salar de Uyuni...</p>
+      <!-- Este es un párrafo que describe los servicios ofrecidos por la empresa. -->
+    </div>
+    <div class="col-lg-4 p-4">
+      <!-- Otra columna con el mismo tamaño y relleno que la anterior. -->
+      <h5 class="mb-3">Enlaces</h5>
+      <!-- Subtítulo para la sección de enlaces. -->
+      <a href="#" class="d-block mb-2 text-dark text-decoration-none">Inicio</a>
+      <a href="#" class="d-block mb-2 text-dark text-decoration-none">Sitios</a>
+      <a href="#" class="d-block mb-2 text-dark text-decoration-none">Qué Ofrecemos</a>
+      <a href="#" class="d-block mb-2 text-dark text-decoration-none">Contáctanos</a>
+      <a href="#" class="d-block mb-2 text-dark text-decoration-none">Acerca De</a>
+      <!-- Estos son enlaces a diferentes secciones del sitio web. -->
+    </div>
+    <div class="col-lg-4 p-4">
+      <!-- Otra columna para enlaces de redes sociales. -->
+      <h5 class="mb-3">Síguenos</h5>
+      <!-- Subtítulo para la sección de enlaces de redes sociales. -->
+      <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+        <i class="bi bi-twitter me-1"></i>Twitter
+      </a><br>
+      <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+        <i class="bi bi-facebook me-1"></i>Facebook
+      </a><br>
+      <a href="#" class="d-inline-block text-dark text-decoration-none mb-2">
+        <i class="bi bi-instagram me-1"></i>Instagram
+      </a><br>
+      <!-- Estos son enlaces a los perfiles de redes sociales de la empresa, con íconos. -->
+    </div>
+  </div>
+</div>
 
-<h6 class="text-center bg-dark text-white p-3 m-0">Creado y Diseno por la clase de diseno web II</h6>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<footer class="text-center bg-dark text-white p-3">
+	<!-- Esta es la sección del pie de página con fondo oscuro y texto blanco. -->
+	<p class="m-0">Creado y Diseño por la clase de Programacion Web II"</p>
+</footer>

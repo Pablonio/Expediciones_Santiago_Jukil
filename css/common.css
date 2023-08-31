@@ -1,34 +1,139 @@
-:root{
-	--teal: #2ec1ac;
-	--teal_hover:#279e8c;
+:root {
+	--teal: #fa5c05;
+	--teal_hover: #faa935;
 }
-*{
-		font-family: 'Poppins', sans-serif;
-	}
-	.h-font{
-		font-family: 'Merienda' cursive;
-	}
 
-	input::-webkit-outer-spin-button,
-	input::-webkit-inner-spin-button {
-		-webkit-appearance: none;
-		margin: 0;
-	}
+* {
+	font-family: 'Poppins', sans-serif;
+}
 
-	input[type=number] {
-		-moz-appearance: textarea;
-	}
-	.custom-bg{
-		background-color: var(--teal);
-		border: 1px solid var(--teal);
-	}
-	.custom-bg:hover{
-		background-color: var(--teal-hover);
-		border-color: var(--teal-hover);
-	}
+.h-font {
+	font-family: 'Merienda', cursive;
+}
 
-	.h-line{
-		width: 150px;
-		margin: 0 auto;
-		height: 1.7px;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textarea;
+}
+
+.custom-bg {
+	background-color: var(--teal);
+	border: 1px solid var(--teal);
+}
+
+.custom-bg:hover {
+	background-color: var(--teal-hover);
+	border-color: var(--teal-hover);
+}
+
+.h-line {
+	width: 150px;
+	margin: 0 auto;
+	height: 1.7px;
+}
+
+body {
+	background-color: #f0f2f5;
+}
+
+/* Navbar styles */
+.navbar {
+	background-color: #fa5c05;
+}
+
+.navbar-brand {
+	color: #ffffff;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+/* Contact section styles */
+.contact-section {
+	background-color: #ffffff;
+	padding: 50px 0;
+}
+
+.contact-section h2 {
+	font-size: 32px;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contact-section .h-line {
+	background-color: #333333;
+	height: 2px;
+	width: 60px;
+	margin: 0 auto 30px;
+}
+
+.contact-section p {
+	font-size: 18px;
+	color: #555555;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+/* Contact info box styles */
+.contact-info-box {
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 30px;
+	text-align: center;
+}
+
+.contact-info-box h5 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 15px;
+}
+
+.contact-info-box a {
+	color: #333333;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+.contact-info-box a:hover {
+	color: #faa935;
+}
+
+.contact-info-box .bi {
+	font-size: 24px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.card {
+	transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+	transform: scale(1.02);
+}
+
+@keyframes fadeInUp {
+	from {
+		transform: translateY(20px);
+		opacity: 0;
 	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+/* Aplica la animación a las instalaciones */
+.facility-card {
+	animation: fadeInUp 0.6s ease-in-out;
+}
