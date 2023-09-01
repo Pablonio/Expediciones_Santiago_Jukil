@@ -41,7 +41,31 @@
 
                 <!-- General ajuste modal -->
                 <div class="modal fade" id="general-s" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <!-- Contenido del modal -->
+                    <!--General ajuste modal-->
+                    <div class="modal fade" id="general-s" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <form>
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Ajustes Generales</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="mb-3">
+                                            <label class="form-label">Titulo del Sitio</label>
+                                            <input type="text" name="nombre_sitio" class="form-control shadow-none">
+                                        <div class="mb-3">
+                                            <label class="form-label">Aceca De</label>
+                                            <textarea name="acercade_sitio" class="form-control shadow-none" rows="6"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn text-secondary shadow-none" data-bs-dismiss="modal">CANCELAR</button>
+                                        <button type="button" class="btn custom-bg text-white shadow-none">SUBIR</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
